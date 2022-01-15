@@ -172,6 +172,9 @@ span .fas:not(.fa-cart-plus) {
         display: grid;
         grid-template-columns: auto auto;
     }
+    .first img {
+        padding-top: 100px;
+    }
 }
 @media (max-width:710px) {
     .fa-bars {
@@ -179,6 +182,9 @@ span .fas:not(.fa-cart-plus) {
     }
     nav ul > li {
         display: none;
+    }
+    .first img {
+        padding-top: 100px;
     }
 }
 @media (max-width:480px) {
@@ -191,5 +197,8 @@ span .fas:not(.fa-cart-plus) {
     }
     .mypart div {
         margin:auto
+    }
+    .first img {
+        padding-top: 100px;
     }
 }

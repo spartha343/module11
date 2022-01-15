@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
+    margin: 0%;
 }
 
 /*------------------------------ 
@@ -68,6 +69,7 @@ footer {
 #container {
     max-width: 1200px;
     padding: 10px;
+    margin: 0%;
 }
 .flexbox{
     display: flex;
@@ -200,5 +202,8 @@ span .fas:not(.fa-cart-plus) {
     }
     .first img {
         padding-top: 100px;
+    }
+    section .half-width img {
+        padding-left: 0%;
     }
 }

@@ -159,7 +159,12 @@ span .fas:not(.fa-cart-plus) {
     }
     section .half-width img {
         width: 70%;
-        padding-left: 150px;
+    }
+    .first {
+        text-align: center;
+    }
+    .first img {
+        padding-top: 100px;
     }
 }
 @media (max-width:990px) {
